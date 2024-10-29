@@ -23,8 +23,8 @@
     background-image:url(../assets/images/bg2.jpg);
     width: auto; 
     height: 800px; 
-    background-size: cover;
     background-position: 60%;
+    background-size: cover;
     
 }
 
@@ -51,7 +51,7 @@
 
 h1
 {
-    font-size: 45px;
+    font-size: 48px;
     font-weight: lighter;
 }
 
