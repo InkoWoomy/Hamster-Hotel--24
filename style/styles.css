@@ -9,18 +9,28 @@
     background-color: #000324;
 }
 
-.taglineHero
+.taglineBG
 {
-    position:relative; 
-    bottom: 370px;
-    background-color: #000324CC; 
-    width: 945px;
+    background-image:url(../assets/images/header.jpg);
+    justify-content: center;
+    width: auto; 
+    height: 700px; 
+    object-fit: cover;
 }
 
-.roomsHero
+.roomsBG
 {
-    position:relative; 
-    bottom: 700px;
+    background-image:url(../assets/images/bg2.jpg);
+    width: auto; 
+    height: 700px; 
+    object-fit: cover;
+    
+}
+
+.taglineHero
+{
+    background-color: #000324CC; 
+    width: 945px;
 }
 
 .reserveBtn
