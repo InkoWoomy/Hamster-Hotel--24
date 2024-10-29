@@ -12,18 +12,19 @@
 .taglineBG
 {
     background-image:url(../assets/images/header.jpg);
-    justify-content: center;
     width: auto; 
-    height: 700px; 
-    object-fit: cover;
+    height: 600px; 
+    background-position: 60%;
+    background-size: cover;
 }
 
 .roomsBG
 {
     background-image:url(../assets/images/bg2.jpg);
     width: auto; 
-    height: 700px; 
-    object-fit: cover;
+    height: 800px; 
+    background-size: cover;
+    background-position: 60%;
     
 }
 
@@ -31,6 +32,8 @@
 {
     background-color: #000324CC; 
     width: 945px;
+    position: relative;
+    top: 160px;
 }
 
 .reserveBtn
