@@ -3,11 +3,173 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Hamster Hotel</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/styles.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div>
+      <!--Header-->
+      <div class="container-fluid pb-2 header standardText">
+        <div class="container d-flex justify-content-center">
+          <div class="row">
+            <div class="col d-flex align-items-end">
+                <div class="d-flex flex-column px-4" role="button">Overview</div>
+                <div class="d-flex flex-column px-4" role="button">Rooms</div>
+                <div class="d-flex flex-column px-4" role="button">Packages</div>
+              </div>
+              <div class="col">
+                <img src="./assets/images/Logo.png" alt="Logo">
+              </div>
+              <div class="col d-flex align-items-end">
+                <div class="d-flex flex-column px-4" role="button">Amenities</div>
+                <div class="d-flex flex-column px-4" role="button">Contact</div>
+                <div class="d-flex flex-column px-4 reserveBtn" role="button">Reserve</div>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </div>
+      <img src="./assets/images/header.jpg" alt="Header Background" class="bg" style="width: 100%; height: 500px">
+      <div>
+        <div class="container">
+          <div class="row">
+            <div class="col d-flex justify-content-center"> 
+              <div class="text-center standardText taglineHero p-5">
+                <h1>Run on the wheel of luxury</h1>
+                <p style="font-weight: lighter;">Explore everything the beach has to offer in our relaxing resort.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <img src="./assets/images/hamsterhomejpg.jpg" alt="Hamster Relaxing" style="width: 369px; height: 416px; object-fit: cover;">
+            </div>
+            <div class="col-7">
+              <h2>Welcome to a hamster's paradise</h1>
+                <br>
+              <p>Nestled in the heart of Cavia California, La Petite Maison is a luxury hotel designed for the small mammal with extravagance in mind. Escape to the warm comforts of stunning rooms, a relaxing spa, and a pool with a beach side view.</p>
+              <p>Inspired by the warm beauty of the California Coast, we invite you to enjoy the rich accommodations along with our unmatched luxury. Discover the satisfaction of indulging in our quality rooms, and thank you for choosing La Petite Maison.</p>
+              <div class="row d-flex align-items-end">
+                <div class="col">
+                  <img src="./assets/images/awardfinest.png" alt="Finest Quality">
+                </div>
+                <div class="col">
+                  <img src="./assets/images/awardsatisfaction.png" alt="Satisfaction">
+                </div>
+                <div class="col">
+                  <img src="./assets/images/awardgenuine.png" alt="Genuine">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <img src="./assets/images/bg2.jpg" alt="hotel Background" class="bg mt-5" style="width: 100%; height: 738px">
+      <div class="container roomsHero standardText">
+        <h1 class="text-center p-4">Our Rooms</h1>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-4">
+            <div class="card h-100" style="width: auto;">
+              <img src="./assets/images/room1.jpg" class="card-img-top" alt="Queen Room">
+              <div class="card-body d-flex flex-column">
+                <div class="col-12">
+                  <h2 class="card-title cardTitleText">Queen Room</h2>
+                <h6>850 SQ FT room with city view</h6>
+                <ul class="card-text">
+                  <li>
+                    One queen size bed
+                  </li>
+                  <li>
+                    Seed Bar, fireplace and large balcony
+                  </li>
+                  <li>
+                    Small kitchen with a refrigerator and stove
+                  </li>
+                </ul>
+                </div>
+                <div class="col-12 mt-auto">
+                  <a href="#" class="btn btn-primary px-4 py-lg-2">Reserve</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100" style="width: auto;">
+              <img src="./assets/images/room2.jpg" class="card-img-top" alt="King Room">
+              <div class="card-body d-flex flex-column">
+                <div class="col-12">
+                  <h2 class="card-title cardTitleText">King Room</h2>
+                <h6>950 SQ FT room with beach view</h6>
+                <ul class="card-text mt-auto">
+                  <li>
+                    One king size bed
+                  </li>
+                  <li>
+                    Seed Bar, fireplace and large balcony
+                  </li>
+                  <li>
+                    Small kitchen with a refrigerator and stove
+                  </li>
+                </ul>
+                </div>
+                <div class="col-12 mt-auto">
+                  <a href="#" class="btn btn-primary px-4 py-lg-2 ">Reserve</a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card h-100" style="width: auto;">
+              <img src="./assets/images/room3.jpg" class="card-img-top" alt="Beach Room">
+              <div class="card-body">
+                <div class="col-12">
+                  <h2 class="card-title cardTitleText">Beach Side Suite</h2>
+                <h6>1500 SQ FT Suite with beach view</h6>
+                <ul class="card-text">
+                  <li>
+                    One California king size bed
+                  </li>
+                  <li>
+                    Second room with fireplace, hot tub, and balcony
+                  </li>
+                  <li>
+                    Seed Bar and coffee station
+                  </li>
+                  <li>
+                    Full kitchen with a refrigerator, stove, and island
+                  </li>
+                </ul>
+                </div>
+                <br>
+                <div class="col-12">
+                  <a href="#" class="btn btn-primary px-4 py-lg-2 mt-auto">Reserve</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          
+
+          
+          
+        </div>
+      </div>
 
 
 
@@ -37,10 +199,6 @@
 
 
 
-
-
-
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>

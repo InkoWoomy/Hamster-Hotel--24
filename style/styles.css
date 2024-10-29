@@ -1,0 +1,59 @@
+.standardText
+{ 
+    font: normal normal normal 20px/26px Dosis;
+    color: white;
+}
+
+.header
+{
+    background-color: #000324;
+}
+
+.taglineHero
+{
+    position:relative; 
+    bottom: 370px;
+    background-color: #000324CC; 
+    width: 945px;
+}
+
+.roomsHero
+{
+    position:relative; 
+    bottom: 700px;
+}
+
+.reserveBtn
+{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+.bg
+{
+    max-height: auto;
+    object-fit: cover;
+}
+
+h1
+{
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+h2
+{
+    font-weight: lighter;
+}
+
+h6
+{
+    font-weight: bold;
+}
+
+li
+{
+    font-size: 16px;
+    font-weight: lighter;
+}
