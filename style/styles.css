@@ -13,8 +13,8 @@
 {
     background-image:url(../assets/images/header.jpg);
     width: auto; 
-    height: 600px; 
-    background-position: 60%;
+    height: 500px; 
+    background-position-y: 55%;
     background-size: cover;
 }
 
@@ -22,18 +22,27 @@
 {
     background-image:url(../assets/images/bg2.jpg);
     width: auto; 
-    height: 800px; 
+    height: 100%; 
     background-position: 60%;
     background-size: cover;
-    
 }
+
+.amenitiesBG
+{
+    background-image:url(../assets/images/bg.jpg);
+    width: auto; 
+    height: 100%; 
+    background-position: 60%;
+    background-size: cover;
+}
+
 
 .taglineHero
 {
     background-color: #000324CC; 
     width: 945px;
     position: relative;
-    top: 160px;
+    top: 140px;
 }
 
 .reserveBtn
@@ -69,4 +78,16 @@ li
 {
     font-size: 16px;
     font-weight: lighter;
+}
+
+h4{
+    font-size: 16px;
+    font-weight: lighter;
+    color: #1F51A8;
+}
+
+.amenitiesImages{
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
 }
