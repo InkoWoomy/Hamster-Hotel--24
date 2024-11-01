@@ -1,7 +1,24 @@
 .standardText
 { 
     font: normal normal normal 20px/26px Dosis;
-    color: white;
+    color: white!important;
+}
+
+
+@media (max-width: 1000px) {
+
+    .navLogo{
+        display: none;
+    }
+}
+
+.navbarAdjust
+{
+    flex: 1;
+    margin: auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 
 .header
@@ -36,7 +53,6 @@
     background-size: cover;
 }
 
-
 .taglineHero
 {
     background-color: #000324CC; 
@@ -69,6 +85,18 @@ h2
     font-weight: lighter;
 }
 
+h4
+{
+    font-size: 16px;
+    font-weight: lighter;
+    color: #1F51A8;
+}
+
+h5
+{
+    font-weight: lighter;
+}
+
 h6
 {
     font-weight: bold;
@@ -78,12 +106,6 @@ li
 {
     font-size: 16px;
     font-weight: lighter;
-}
-
-h4{
-    font-size: 16px;
-    font-weight: lighter;
-    color: #1F51A8;
 }
 
 .amenitiesImages{
