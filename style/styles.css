@@ -10,7 +10,26 @@
     .navLogo{
         display: none;
     }
+    .packageImages
+    {
+        height: 400px;
+    }
+    
 }
+
+@media (min-width: 1000px) {
+
+    .mobileLogo
+    {
+        display: none;
+    }
+    .packageImages
+    {
+        height: 280px;
+    }
+   
+}
+
 
 .navbarAdjust
 {
